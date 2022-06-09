@@ -1,18 +1,19 @@
 /* FONTS */
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --font-primary: 'Bebas Neue', sans-serif;
+  --font-secondary: 'Poppins', serif;
+  --font-code: 'Bebas Neue', monospace;
+  --bg-color: #000000;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --btn-bg-color: #fdd34a;
+  --accent-color: #000000;
+  --header-shadow: rgb(255, 255, 255) 0px 0px 5px;
 }
 
 * {
@@ -30,6 +31,8 @@ body {
   font-family: var(--font-primary);
 }
 
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -40,9 +43,7 @@ body {
 
 /* HEADER */
 
-header {
-  box-shadow: var(--header-shadow);
-}
+
 
 header .container {
   flex-direction: row;
@@ -79,11 +80,7 @@ header .container {
   box-shadow: none;
 }
 
-.wallet-btn {
-  border-radius: 5rem;
-  margin-left: 2rem;
-  border-color: transparent;
-}
+
 
 .hero-btn {
   border-radius: 4px;
@@ -93,9 +90,7 @@ header .container {
 
 /* COUNTDOWN SECTION */
 
-section {
-  flex: 1 1 auto;
-}
+
 
 .countdown {
   display: flex;
