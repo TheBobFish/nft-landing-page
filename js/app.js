@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'CodeCats';
+const COLLECTION_NAME = 'DangerNoodlez';
 let editions = [];
 let dots = 1;
 
@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
       checkOwner(accounts[0]);
     } else {
       onboardButton.innerText = 'Connect To Metamask!';
-      onboardButton.onclick = async () => {
+      onboardButton.onclick = async ()   => {
         await window.ethereum.request({
           method: 'eth_requestAccounts',
         })
