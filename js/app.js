@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'DangerNoodlez';
+const COLLECTION_NAME = 'Danger_Noodlez';
 let editions = [];
 let dots = 1;
 
